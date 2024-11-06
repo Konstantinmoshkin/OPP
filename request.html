@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отправка отзывов</title>
+</head>
+<style>
+    body {
+    
+    background-image: url("picture.gif");
+    
+    background-position: center center;
+    
+    background-size: cover;
+   
+    background-repeat: no-repeat;
+   
+    background-attachment: fixed;
+  }
+    
+</style>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href = 'index.html' target = '_self'><font color = 'white' , face = 'Impact', size = '5'>НАЧАЛЬНАЯ СТРАНИЦА САЙТА</font></a></li>
+            <li> <a href = 'recomended.html'><font color = 'white' , face = 'Impact', size = '5'>РЕКОМЕНДУЕМ ПОСМОТРЕТЬ</font></a></li>
+            <li><a href = 'https://myanimelist.net/topanime.php'><img height="30px" src="./logANIME.avif"></a></li>
+            <li><a href = 'Table.html'> <font color = 'white' , face = 'Impact', size = '5'>САМЫЕ ВЫСОКООЦЕНЕННЫЕ АНИМЕ</font></a></li>
+            <li><a href = 'passport.html'><font color = 'white' , face = 'Impact', size = '5'>ПАССПОРТ</font></a></li>
+            <li><a href = 'passportchange.html'><font color = 'white' , face = 'Impact', size = '5'>ИЗМЕНЕНИЕ ПАССПОРТА - КИРИЛЛИЦА НА ЛАТИНИЦУ</font></a></li>
+            <li><a href = 'solve.html'><font color = 'white' , face = 'Impact', size = '5'>АЛГОРИТМИЧЕСКАЯ ЗАДАЧА</font></a></li>
+            <li><a href = 'original.html'><font color = 'white' , face = 'Impact', size = '5'>ОТПРАВКА ДАННЫХ АЛГОРИТМИЧЕСКОЙ ЗАДАЧИ</font></a></li>
+            <li><a href = 'request.html'><font color = 'red' , face = 'Impact', size = '5'>ФОРМА ДЛЯ ОТПРАВКИ ОТЗЫВОВ</font></a>
+                <ul>
+                    <li><a href = 'request.html#registration'><font color = 'white' , face = 'Impact', size = '3'>Регистрация</font></a></li>
+                    <li><a href = 'request.html#addition'><font color = 'white' , face = 'Impact', size = '3'>Предложить свое аниме</font></a></li>
+                </ul></li>
+        </ul>
+        </nav>
+<hr color = 'black'>
+<h1 id = 'registration'> Введите данные для регистрации на сайте</h1>
+<form action = 'https://www.bing.com/search?' id = 'UserEnter' name = 'UserEnter' target = '_blank'>
+    <p>
+        <input type = 'hidden' name = 'q' value = 'search'>
+    </p>
+    <p>
+        Фамилия:
+        <input type = 'text' name = 'last_name'>
+    </p>
+    <p>
+        Имя:
+        <input type = 'text' name = 'first_name'>
+    </p>
+    <p>
+        Дата рождения:
+        <input type = 'date' name = 'birthdate'>
+    </p>
+    <p>
+        Номер группы:
+        1<input type = 'radio' name = 'group1'>2<input type = 'radio' name = 'group2'>3<input type = 'radio' name = 'group3'>4<input type = 'radio' name = 'group4'>5<input type = 'radio' name = 'group5'>6<input type = 'radio' name = 'group6'>
+    </p>
+    <p>
+        Мобильный телефон:
+        <input type = 'text' name = 'mobile'>
+        Электронная почта:
+        <input type = 'text' name = 'email'>
+    </p>
+    <p>
+        Дата отправки запроса:
+        <input type = 'date' name = 'dateofrequest'>
+    </p>
+    <p>
+        Придумайте и введите свой пароль
+        <input type = 'password'>
+    </p>
+    
+    <input type = 'submit' value = 'Зарегестрироваться'>
+
+
+
+</form>
+<h1 id = 'addition'> Предложите добавить в список свое аниме!</h1>
+<form action = 'https://www.bing.com/search?' id = 'UserEnter' name = 'UserEnter' target = '_blank'>
+    <p>
+        <input type = 'hidden' name = 'q' value = 'search'>
+    </p>
+    <p>
+        Авторизируйтесь
+        <input type = 'text' name = 'name' value = 'Имя и фамилия'> Пароль<input type = 'password' name = 'parol'>
+        
+    </p>
+    <p>Введите ваш возраст
+
+    
+    <input type = 'number'></p>
+    <p>
+        Ваш пол:
+       <lable>Мужской <input type = 'radio' name = 'male'></lable><lable>Женский <input type = 'radio' name = 'female'></lable>
+    </p>
+    <p>Введите название аниме, которое вы бы хотели добавить</p>
+    <p>
+        Каким жанрам соответствует аниме?
+        </p>
+        <p>
+        <lable>Сенен<input type = 'checkbox' name = 'janr1'></lable>
+        <lable>Повседневность<input type = 'checkbox' name = 'janr2'></lable>
+        <lable>Фентези<input type = 'checkbox' name = 'janr3'></lable>
+        <lable>Романтика<input type = 'checkbox' name = 'janr4'></lable>
+        <lable>Сёдзе<input type = 'checkbox' name = 'janr5'></lable>
+        <lable>Исекай<input type = 'checkbox' name = 'janr6'></lable>
+        <lable>Триллер<input type = 'checkbox' name = 'janr7'></lable>
+        <lable>Комедия<input type = 'checkbox' name = 'janr8'></lable>
+
+    </p>
+    <p>
+        На сколько вы бы оценили это аниме по 10-ти бальной шкале?
+        <input type = 'number' name = 'decision' min = '0' max = '10'>
+    </p>
+    <p>
+        Опишите сюжет Аниме
+    </p>
+    <p>
+        <textarea cols = '50' rows = '10'>
+
+        </textarea>
+    </p>
+    <input type = 'submit' value = 'Отправить'>
+</body>
+</html>
